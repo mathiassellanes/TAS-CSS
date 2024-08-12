@@ -1,0 +1,47 @@
+body {
+  background-color: red;
+}
+
+.content__paragraph {
+  font-size: 24px;
+}
+
+.content__image {
+  width: 50%;
+}
+
+.home__content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .content__paragraph {
+    font-size: 18px;
+  }
+
+  .content__image {
+    width: 70%;
+  }
+
+  body {
+    background-color: green;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    background-color: blue;
+  }
+
+  .content__paragraph {
+    font-size: 14px;
+  }
+
+  .content__image {
+    width: 100%;
+  }
+}

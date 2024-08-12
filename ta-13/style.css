@@ -7,10 +7,6 @@
   height: 400px;
 }
 
-.original.proportioned {
-  width: 400px;
-}
-
-.original.distorted {
+.original.proportioned, .original.distorted {
   width: 400px;
 }
